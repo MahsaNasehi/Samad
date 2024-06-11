@@ -51,21 +51,6 @@ void add_node_to_approved(proved_user *newNode)
     temp->next = newNode;
 }
 
-// proved_user *new_node_for_approved(char name[15], char password[15], char tp[], char F_Name[], char L_Name[])
-// {
-//     proved_user *newNode = (proved_user *)malloc(sizeof(proved_user));
-//     strcpy(newNode->First_Name, F_Name);
-//     strcpy(newNode->Last_Name, L_Name);
-//     strcpy(newNode->username, name);
-//     strcpy(newNode->passwrd, password);
-//     strcpy(newNode->typee, tp);
-//     newNode->price = 0;
-//     newNode->flag = 0; // approved
-//     newNode->token_food_cnt = 0;
-//     newNode->next = NULL;
-//     return newNode;
-// }
-
 selfs *new_node_self(char shenase[15], char name[15], char location[], char capacity[], char type[], char meal[], int L_H, int L_M, int D_H, int D_M)
 {
     selfs *newNode = (selfs *)malloc(sizeof(selfs));
